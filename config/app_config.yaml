@@ -1,0 +1,12 @@
+documents:
+  input_dir: data/documents/    # Répertoire contenant les fichiers texte
+  paragraph_split: true         # Activer la découpe en paragraphes
+
+faiss:
+  index_path: data/faiss_index.bin      # Chemin du fichier d'index FAISS
+  metadata_path: data/metadata.json     # Chemin des métadonnées associées
+
+api:
+  host: 0.0.0.0                # Adresse IP pour l'API
+  port: 5566                   # Port pour l'API
+  debug: true                  # Activer le mode débogage pour Flask

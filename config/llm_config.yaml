@@ -1,0 +1,4 @@
+llm_type: llama               # Type de modèle (llama, flan-t5, etc.)
+model_path: path/to/llama     # Chemin vers le modèle local
+parameters:
+  max_tokens: 512             # Paramètres spécifiques au modèle
