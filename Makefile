@@ -2,7 +2,7 @@ ENV_FILE=.env
 REQUIREMENTS=requirements.txt
 VENV=venv
 
-PROJECT_NAME={{ cookiecutter.project_name }}
+PROJECT_NAME=API LLM
 
 .PHONY: help
 help:
