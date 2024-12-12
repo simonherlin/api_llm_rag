@@ -1,0 +1,9 @@
+Flask
+sentence-transformers
+faiss-cpu
+transformers
+langchain
+PyPDF2
+PyMuPDF
+numpy
+pyyaml
