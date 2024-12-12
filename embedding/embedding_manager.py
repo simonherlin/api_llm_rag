@@ -4,6 +4,20 @@ from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
+def load_embedding_model(config_path):
+    """
+    Charge le modèle d'embedding à partir de la configuration.
+    Args:
+        config_path (str): Chemin vers le fichier de configuration.
+    Returns:
+        Model: Instance du modèle chargé.
+    """
+    # Exemple : Charger un modèle avec SentenceTransformers
+    from sentence_transformers import SentenceTransformer
+    model = SentenceTransformer(config_path)
+    return model
+
+
 def generate_embeddings(documents, config):
     """
     Génère des embeddings pour chaque paragraphe et conserve les métadonnées.
